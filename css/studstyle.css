@@ -1,0 +1,22 @@
+.navbar{
+    padding-left: 25px;
+}
+.navbar-brand{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #fff;
+}
+.pdd{
+    margin-left: 265px;
+    margin-top: -300px;
+}
+.mcb{
+    margin-left: 200px;
+   
+}
+
+.active {
+    background-color: #225470;
+    color: #fff;
+  }

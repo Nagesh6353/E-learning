@@ -1,0 +1,137 @@
+/* Navbar section Css */
+
+.navbar{
+    padding-left: 25px;
+}
+.navbar-brand{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-nav{
+    padding-left: 50px;
+}
+.custom-nav .custom-nav-item a{
+    color: #fff;
+}
+.custom-nav-item:hover{
+    background-color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+}
+/* Home Page Background Video Css */
+.remove-vid-marg{
+    margin: 0px;
+    padding: 0px;
+}
+.vid-play{
+    position: relative;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #225470;
+    z-index: 1;
+    opacity: 0.6;
+}
+/* Home Page Background Video Content Css */
+.vid-content{
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+/* Home Page Text-Banner Css */
+.bottom-banner{
+    color: #fff;
+    padding: 10px;
+    padding-left: 150px;
+}
+.backg{
+    background-color: rebeccapurple;
+    height: 50px;
+}
+.con{
+    margin-right: 10px;
+}
+/* Home Page Course Card Enroll Button Css */
+.bt{
+    color: black;
+    margin-left: 114px;
+}
+/* Home Page Contact Us Css */
+.stripe{
+    background-color: rebeccapurple;
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+}
+/* Home Page Social Banner Css */
+.socbg{
+    background-color: rgb(255, 0, 0);
+}
+.social{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.social:hover{
+    padding: 5px 100px;
+    text-decoration: none;
+    background-color: #00ff00;
+}
+
+.psearch{
+    width: 250px;
+}
+.pg{
+    display: flex;
+   
+}
+.card:hover{
+    cursor: pointer;
+    border: 1px solid  #ed1a1a;
+
+}
+
+
+
+
+
+
+
+
+
+/* Meta Query Css */
+@media screen and (min-width:0px) and (max-width:700px){
+    .my-content,.txt-banner{
+        display: none;
+    }
+
+    .vid-content{
+        top: 18%;
+    }
+
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #225470;
+    }
+
+    .custom-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
+    }
+    
+}
